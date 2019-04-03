@@ -1,0 +1,44 @@
+{
+  "name": "react-lib",
+  "version": "0.3.0",
+  "description": "A simple UI library of react components",
+  "main": "dist/index.js",
+  "publishConfig": {
+    "registry": ""
+  },
+  "scripts": {
+    "login": "",
+    "build": "webpack --mode=production",
+    "develop": "webpack --mode=development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "eslint": "^5.15.1",
+    "eslint-loader": "^2.1.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-hooks": "^1.6.0"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
